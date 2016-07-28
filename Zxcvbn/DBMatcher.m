@@ -605,9 +605,8 @@ typedef NSArray* (^MatcherBlock)(NSString *password);
 - (NSArray *)loadFrequencyLists
 {
     NSMutableArray *dictionaryMatchers = [[NSMutableArray alloc] init];
-    
-    NSString *filePath = [[NSBundle bundleForClass:[self class]] pathForResource:@"frequency_lists" ofType:@"json"];
-    NSData *data = [NSData dataWithContentsOfFile:filePath];
+    NSURL *fileURL = [[NSBundle bundleForClass:[self class]] URLForResource:@"frequency_lists" withExtension:@"json"];
+    NSData *data = [NSData dataWithContentsOfURL:fileURL];
     
     NSError *error;
     id json = [NSJSONSerialization JSONObjectWithData:data options:kNilOptions error:&error];
