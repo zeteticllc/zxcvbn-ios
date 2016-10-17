@@ -17,4 +17,6 @@ FOUNDATION_EXPORT const unsigned char ZxcvbnVersionString[];
 #import <Zxcvbn/DBMatcher.h>
 #import <Zxcvbn/DBScorer.h>
 #import <Zxcvbn/DBZxcvbn.h>
+#if TARGET_OS_IPHONE
 #import <Zxcvbn/DBPasswordStrengthMeterView.h>
+#endif

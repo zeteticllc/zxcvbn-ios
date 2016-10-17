@@ -7,6 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2828589E1D4A84BF00233343 /* adjacency_graphs.json in Resources */ = {isa = PBXBuildFile; fileRef = D80ECB9A1BDEAABE0055EF0A /* adjacency_graphs.json */; };
+		2828589F1D4A84BF00233343 /* frequency_lists.json in Resources */ = {isa = PBXBuildFile; fileRef = D80ECB9B1BDEAABE0055EF0A /* frequency_lists.json */; };
+		285CA3B71D4A7E95004C0FB1 /* Zxcvbn.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 285CA3AD1D4A7E95004C0FB1 /* Zxcvbn.framework */; };
+		285CA3C41D4A7F1E004C0FB1 /* Zxcvbn.h in Headers */ = {isa = PBXBuildFile; fileRef = D80ECB6B1BDEAA420055EF0A /* Zxcvbn.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		285CA3C51D4A7F1E004C0FB1 /* DBMatcher.h in Headers */ = {isa = PBXBuildFile; fileRef = D80ECB821BDEAA7D0055EF0A /* DBMatcher.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		285CA3C61D4A7F1E004C0FB1 /* DBScorer.h in Headers */ = {isa = PBXBuildFile; fileRef = D80ECB861BDEAA7D0055EF0A /* DBScorer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		285CA3C71D4A7F1E004C0FB1 /* DBZxcvbn.h in Headers */ = {isa = PBXBuildFile; fileRef = D80ECB881BDEAA7D0055EF0A /* DBZxcvbn.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		285CA3C81D4A7F3D004C0FB1 /* DBMatcher.m in Sources */ = {isa = PBXBuildFile; fileRef = D80ECB831BDEAA7D0055EF0A /* DBMatcher.m */; };
+		285CA3C91D4A7F3D004C0FB1 /* DBScorer.m in Sources */ = {isa = PBXBuildFile; fileRef = D80ECB871BDEAA7D0055EF0A /* DBScorer.m */; };
+		285CA3CA1D4A7F3D004C0FB1 /* DBZxcvbn.m in Sources */ = {isa = PBXBuildFile; fileRef = D80ECB891BDEAA7D0055EF0A /* DBZxcvbn.m */; };
+		285CA3CB1D4A7F54004C0FB1 /* adjacency_graphs.json in Resources */ = {isa = PBXBuildFile; fileRef = D80ECB9A1BDEAABE0055EF0A /* adjacency_graphs.json */; };
+		285CA3CC1D4A7F54004C0FB1 /* frequency_lists.json in Resources */ = {isa = PBXBuildFile; fileRef = D80ECB9B1BDEAABE0055EF0A /* frequency_lists.json */; };
+		285CA3CD1D4A7F77004C0FB1 /* DBMatcher.m in Sources */ = {isa = PBXBuildFile; fileRef = D80ECB831BDEAA7D0055EF0A /* DBMatcher.m */; };
+		285CA3CE1D4A7F77004C0FB1 /* DBScorer.m in Sources */ = {isa = PBXBuildFile; fileRef = D80ECB871BDEAA7D0055EF0A /* DBScorer.m */; };
+		285CA3CF1D4A7F77004C0FB1 /* DBZxcvbn.m in Sources */ = {isa = PBXBuildFile; fileRef = D80ECB891BDEAA7D0055EF0A /* DBZxcvbn.m */; };
+		285CA3D01D4A7F77004C0FB1 /* ZxcvbnTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D80ECB771BDEAA420055EF0A /* ZxcvbnTests.m */; };
 		D80ECB6C1BDEAA420055EF0A /* Zxcvbn.h in Headers */ = {isa = PBXBuildFile; fileRef = D80ECB6B1BDEAA420055EF0A /* Zxcvbn.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D80ECB731BDEAA420055EF0A /* Zxcvbn.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D80ECB681BDEAA420055EF0A /* Zxcvbn.framework */; };
 		D80ECB781BDEAA420055EF0A /* ZxcvbnTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D80ECB771BDEAA420055EF0A /* ZxcvbnTests.m */; };
@@ -27,6 +43,13 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		285CA3B81D4A7E95004C0FB1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D80ECB5F1BDEAA420055EF0A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 285CA3AC1D4A7E95004C0FB1;
+			remoteInfo = "Zxcvbn-OSX";
+		};
 		D80ECB741BDEAA420055EF0A /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D80ECB5F1BDEAA420055EF0A /* Project object */;
@@ -37,6 +60,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		285CA3AD1D4A7E95004C0FB1 /* Zxcvbn.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Zxcvbn.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		285CA3AF1D4A7E95004C0FB1 /* Zxcvbn-OSX.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Zxcvbn-OSX.h"; sourceTree = "<group>"; };
+		285CA3B11D4A7E95004C0FB1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		285CA3B61D4A7E95004C0FB1 /* Zxcvbn-OSXTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Zxcvbn-OSXTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		285CA3BB1D4A7E95004C0FB1 /* Zxcvbn_OSXTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Zxcvbn_OSXTests.m; sourceTree = "<group>"; };
+		285CA3BD1D4A7E95004C0FB1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D80ECB681BDEAA420055EF0A /* Zxcvbn.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Zxcvbn.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D80ECB6B1BDEAA420055EF0A /* Zxcvbn.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Zxcvbn.h; sourceTree = "<group>"; };
 		D80ECB6D1BDEAA420055EF0A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -56,6 +85,21 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		285CA3A91D4A7E95004C0FB1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		285CA3B31D4A7E95004C0FB1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				285CA3B71D4A7E95004C0FB1 /* Zxcvbn.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		D80ECB641BDEAA420055EF0A /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -74,11 +118,31 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		285CA3AE1D4A7E95004C0FB1 /* Zxcvbn-OSX */ = {
+			isa = PBXGroup;
+			children = (
+				285CA3AF1D4A7E95004C0FB1 /* Zxcvbn-OSX.h */,
+				285CA3B11D4A7E95004C0FB1 /* Info.plist */,
+			);
+			path = "Zxcvbn-OSX";
+			sourceTree = "<group>";
+		};
+		285CA3BA1D4A7E95004C0FB1 /* Zxcvbn-OSXTests */ = {
+			isa = PBXGroup;
+			children = (
+				285CA3BB1D4A7E95004C0FB1 /* Zxcvbn_OSXTests.m */,
+				285CA3BD1D4A7E95004C0FB1 /* Info.plist */,
+			);
+			path = "Zxcvbn-OSXTests";
+			sourceTree = "<group>";
+		};
 		D80ECB5E1BDEAA420055EF0A = {
 			isa = PBXGroup;
 			children = (
 				D80ECB6A1BDEAA420055EF0A /* Zxcvbn */,
 				D80ECB761BDEAA420055EF0A /* ZxcvbnTests */,
+				285CA3AE1D4A7E95004C0FB1 /* Zxcvbn-OSX */,
+				285CA3BA1D4A7E95004C0FB1 /* Zxcvbn-OSXTests */,
 				D80ECB691BDEAA420055EF0A /* Products */,
 			);
 			sourceTree = "<group>";
@@ -88,6 +152,8 @@
 			children = (
 				D80ECB681BDEAA420055EF0A /* Zxcvbn.framework */,
 				D80ECB721BDEAA420055EF0A /* ZxcvbnTests.xctest */,
+				285CA3AD1D4A7E95004C0FB1 /* Zxcvbn.framework */,
+				285CA3B61D4A7E95004C0FB1 /* Zxcvbn-OSXTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -131,6 +197,17 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
+		285CA3AA1D4A7E95004C0FB1 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				285CA3C41D4A7F1E004C0FB1 /* Zxcvbn.h in Headers */,
+				285CA3C51D4A7F1E004C0FB1 /* DBMatcher.h in Headers */,
+				285CA3C61D4A7F1E004C0FB1 /* DBScorer.h in Headers */,
+				285CA3C71D4A7F1E004C0FB1 /* DBZxcvbn.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		D80ECB651BDEAA420055EF0A /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -146,6 +223,42 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
+		285CA3AC1D4A7E95004C0FB1 /* Zxcvbn-OSX */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 285CA3C21D4A7E95004C0FB1 /* Build configuration list for PBXNativeTarget "Zxcvbn-OSX" */;
+			buildPhases = (
+				285CA3A81D4A7E95004C0FB1 /* Sources */,
+				285CA3A91D4A7E95004C0FB1 /* Frameworks */,
+				285CA3AA1D4A7E95004C0FB1 /* Headers */,
+				285CA3AB1D4A7E95004C0FB1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Zxcvbn-OSX";
+			productName = "Zxcvbn-OSX";
+			productReference = 285CA3AD1D4A7E95004C0FB1 /* Zxcvbn.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		285CA3B51D4A7E95004C0FB1 /* Zxcvbn-OSXTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 285CA3C31D4A7E95004C0FB1 /* Build configuration list for PBXNativeTarget "Zxcvbn-OSXTests" */;
+			buildPhases = (
+				285CA3B21D4A7E95004C0FB1 /* Sources */,
+				285CA3B31D4A7E95004C0FB1 /* Frameworks */,
+				285CA3B41D4A7E95004C0FB1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				285CA3B91D4A7E95004C0FB1 /* PBXTargetDependency */,
+			);
+			name = "Zxcvbn-OSXTests";
+			productName = "Zxcvbn-OSXTests";
+			productReference = 285CA3B61D4A7E95004C0FB1 /* Zxcvbn-OSXTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 		D80ECB671BDEAA420055EF0A /* Zxcvbn */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = D80ECB7C1BDEAA420055EF0A /* Build configuration list for PBXNativeTarget "Zxcvbn" */;
@@ -191,6 +304,12 @@
 				LastUpgradeCheck = 0710;
 				ORGANIZATIONNAME = Dropbox;
 				TargetAttributes = {
+					285CA3AC1D4A7E95004C0FB1 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					285CA3B51D4A7E95004C0FB1 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
 					D80ECB671BDEAA420055EF0A = {
 						CreatedOnToolsVersion = 7.1;
 					};
@@ -213,11 +332,31 @@
 			targets = (
 				D80ECB671BDEAA420055EF0A /* Zxcvbn */,
 				D80ECB711BDEAA420055EF0A /* ZxcvbnTests */,
+				285CA3AC1D4A7E95004C0FB1 /* Zxcvbn-OSX */,
+				285CA3B51D4A7E95004C0FB1 /* Zxcvbn-OSXTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		285CA3AB1D4A7E95004C0FB1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				285CA3CB1D4A7F54004C0FB1 /* adjacency_graphs.json in Resources */,
+				285CA3CC1D4A7F54004C0FB1 /* frequency_lists.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		285CA3B41D4A7E95004C0FB1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2828589E1D4A84BF00233343 /* adjacency_graphs.json in Resources */,
+				2828589F1D4A84BF00233343 /* frequency_lists.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		D80ECB661BDEAA420055EF0A /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -237,6 +376,27 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		285CA3A81D4A7E95004C0FB1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				285CA3C81D4A7F3D004C0FB1 /* DBMatcher.m in Sources */,
+				285CA3C91D4A7F3D004C0FB1 /* DBScorer.m in Sources */,
+				285CA3CA1D4A7F3D004C0FB1 /* DBZxcvbn.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		285CA3B21D4A7E95004C0FB1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				285CA3CD1D4A7F77004C0FB1 /* DBMatcher.m in Sources */,
+				285CA3CE1D4A7F77004C0FB1 /* DBScorer.m in Sources */,
+				285CA3CF1D4A7F77004C0FB1 /* DBZxcvbn.m in Sources */,
+				285CA3D01D4A7F77004C0FB1 /* ZxcvbnTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		D80ECB631BDEAA420055EF0A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -263,6 +423,11 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		285CA3B91D4A7E95004C0FB1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 285CA3AC1D4A7E95004C0FB1 /* Zxcvbn-OSX */;
+			targetProxy = 285CA3B81D4A7E95004C0FB1 /* PBXContainerItemProxy */;
+		};
 		D80ECB751BDEAA420055EF0A /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = D80ECB671BDEAA420055EF0A /* Zxcvbn */;
@@ -271,6 +436,80 @@
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
+		285CA3BE1D4A7E95004C0FB1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NONNULL = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COMBINE_HIDPI_IMAGES = YES;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_VERSION = A;
+				INFOPLIST_FILE = "Zxcvbn-OSX/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				PRODUCT_BUNDLE_IDENTIFIER = "net.zetetic.Zxcvbn-OSX";
+				PRODUCT_NAME = Zxcvbn;
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		285CA3BF1D4A7E95004C0FB1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NONNULL = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COMBINE_HIDPI_IMAGES = YES;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_VERSION = A;
+				INFOPLIST_FILE = "Zxcvbn-OSX/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				PRODUCT_BUNDLE_IDENTIFIER = "net.zetetic.Zxcvbn-OSX";
+				PRODUCT_NAME = Zxcvbn;
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		285CA3C01D4A7E95004C0FB1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NONNULL = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "Zxcvbn-OSXTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				PRODUCT_BUNDLE_IDENTIFIER = "net.zetetic.Zxcvbn-OSXTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		285CA3C11D4A7E95004C0FB1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NONNULL = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "Zxcvbn-OSXTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				PRODUCT_BUNDLE_IDENTIFIER = "net.zetetic.Zxcvbn-OSXTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
 		D80ECB7A1BDEAA420055EF0A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -311,7 +550,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
-				PROVISIONING_PROFILE = "766e9a37-00f9-46ff-8824-8ec815bc0e3c";
+				PROVISIONING_PROFILE = "ee4ebda6-7b8e-496f-879e-bd1f89695642";
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
@@ -426,6 +665,24 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		285CA3C21D4A7E95004C0FB1 /* Build configuration list for PBXNativeTarget "Zxcvbn-OSX" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				285CA3BE1D4A7E95004C0FB1 /* Debug */,
+				285CA3BF1D4A7E95004C0FB1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		285CA3C31D4A7E95004C0FB1 /* Build configuration list for PBXNativeTarget "Zxcvbn-OSXTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				285CA3C01D4A7E95004C0FB1 /* Debug */,
+				285CA3C11D4A7E95004C0FB1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		D80ECB621BDEAA420055EF0A /* Build configuration list for PBXProject "Zxcvbn" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
