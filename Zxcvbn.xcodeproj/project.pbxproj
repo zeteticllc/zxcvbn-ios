@@ -456,6 +456,7 @@
 				PRODUCT_NAME = Zxcvbn;
 				SDKROOT = macosx;
 				SKIP_INSTALL = YES;
+				VALID_ARCHS = x86_64;
 			};
 			name = Debug;
 		};
@@ -478,6 +479,7 @@
 				PRODUCT_NAME = Zxcvbn;
 				SDKROOT = macosx;
 				SKIP_INSTALL = YES;
+				VALID_ARCHS = x86_64;
 			};
 			name = Release;
 		};
