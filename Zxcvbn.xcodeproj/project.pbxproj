@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1C2EA550219DEF5000F06002 /* frequency_lists.json in Resources */ = {isa = PBXBuildFile; fileRef = D80ECB9B1BDEAABE0055EF0A /* frequency_lists.json */; };
+		1C2EA551219DEFAC00F06002 /* adjacency_graphs.json in Resources */ = {isa = PBXBuildFile; fileRef = D80ECB9A1BDEAABE0055EF0A /* adjacency_graphs.json */; };
 		2828589E1D4A84BF00233343 /* adjacency_graphs.json in Resources */ = {isa = PBXBuildFile; fileRef = D80ECB9A1BDEAABE0055EF0A /* adjacency_graphs.json */; };
 		2828589F1D4A84BF00233343 /* frequency_lists.json in Resources */ = {isa = PBXBuildFile; fileRef = D80ECB9B1BDEAABE0055EF0A /* frequency_lists.json */; };
 		285CA3B71D4A7E95004C0FB1 /* Zxcvbn.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 285CA3AD1D4A7E95004C0FB1 /* Zxcvbn.framework */; };
@@ -371,6 +373,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1C2EA550219DEF5000F06002 /* frequency_lists.json in Resources */,
+				1C2EA551219DEFAC00F06002 /* adjacency_graphs.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
