@@ -326,6 +326,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 			);
 			mainGroup = D80ECB5E1BDEAA420055EF0A;
@@ -460,7 +461,7 @@
 				PRODUCT_NAME = Zxcvbn;
 				SDKROOT = macosx;
 				SKIP_INSTALL = YES;
-				VALID_ARCHS = x86_64;
+				VALID_ARCHS = "x86_64 arm64";
 			};
 			name = Debug;
 		};
@@ -483,7 +484,7 @@
 				PRODUCT_NAME = Zxcvbn;
 				SDKROOT = macosx;
 				SKIP_INSTALL = YES;
-				VALID_ARCHS = x86_64;
+				VALID_ARCHS = "x86_64 arm64";
 			};
 			name = Release;
 		};
