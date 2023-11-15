@@ -7,10 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1C2EA550219DEF5000F06002 /* frequency_lists.json in Resources */ = {isa = PBXBuildFile; fileRef = D80ECB9B1BDEAABE0055EF0A /* frequency_lists.json */; };
-		1C2EA551219DEFAC00F06002 /* adjacency_graphs.json in Resources */ = {isa = PBXBuildFile; fileRef = D80ECB9A1BDEAABE0055EF0A /* adjacency_graphs.json */; };
-		2828589E1D4A84BF00233343 /* adjacency_graphs.json in Resources */ = {isa = PBXBuildFile; fileRef = D80ECB9A1BDEAABE0055EF0A /* adjacency_graphs.json */; };
-		2828589F1D4A84BF00233343 /* frequency_lists.json in Resources */ = {isa = PBXBuildFile; fileRef = D80ECB9B1BDEAABE0055EF0A /* frequency_lists.json */; };
+		13422F7A2B05501C00B50D30 /* frequency_lists.lzma in Resources */ = {isa = PBXBuildFile; fileRef = 13422F782B05501C00B50D30 /* frequency_lists.lzma */; };
+		13422F7B2B05501C00B50D30 /* frequency_lists.lzma in Resources */ = {isa = PBXBuildFile; fileRef = 13422F782B05501C00B50D30 /* frequency_lists.lzma */; };
+		13422F7C2B05501C00B50D30 /* frequency_lists.lzma in Resources */ = {isa = PBXBuildFile; fileRef = 13422F782B05501C00B50D30 /* frequency_lists.lzma */; };
+		13422F7D2B05501C00B50D30 /* frequency_lists.lzma in Resources */ = {isa = PBXBuildFile; fileRef = 13422F782B05501C00B50D30 /* frequency_lists.lzma */; };
+		13422F7E2B05501C00B50D30 /* adjacency_graphs.lzma in Resources */ = {isa = PBXBuildFile; fileRef = 13422F792B05501C00B50D30 /* adjacency_graphs.lzma */; };
+		13422F7F2B05501C00B50D30 /* adjacency_graphs.lzma in Resources */ = {isa = PBXBuildFile; fileRef = 13422F792B05501C00B50D30 /* adjacency_graphs.lzma */; };
+		13422F802B05501C00B50D30 /* adjacency_graphs.lzma in Resources */ = {isa = PBXBuildFile; fileRef = 13422F792B05501C00B50D30 /* adjacency_graphs.lzma */; };
+		13422F812B05501C00B50D30 /* adjacency_graphs.lzma in Resources */ = {isa = PBXBuildFile; fileRef = 13422F792B05501C00B50D30 /* adjacency_graphs.lzma */; };
 		285CA3B71D4A7E95004C0FB1 /* Zxcvbn.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 285CA3AD1D4A7E95004C0FB1 /* Zxcvbn.framework */; };
 		285CA3C41D4A7F1E004C0FB1 /* Zxcvbn.h in Headers */ = {isa = PBXBuildFile; fileRef = D80ECB6B1BDEAA420055EF0A /* Zxcvbn.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		285CA3C51D4A7F1E004C0FB1 /* DBMatcher.h in Headers */ = {isa = PBXBuildFile; fileRef = D80ECB821BDEAA7D0055EF0A /* DBMatcher.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -19,8 +23,6 @@
 		285CA3C81D4A7F3D004C0FB1 /* DBMatcher.m in Sources */ = {isa = PBXBuildFile; fileRef = D80ECB831BDEAA7D0055EF0A /* DBMatcher.m */; };
 		285CA3C91D4A7F3D004C0FB1 /* DBScorer.m in Sources */ = {isa = PBXBuildFile; fileRef = D80ECB871BDEAA7D0055EF0A /* DBScorer.m */; };
 		285CA3CA1D4A7F3D004C0FB1 /* DBZxcvbn.m in Sources */ = {isa = PBXBuildFile; fileRef = D80ECB891BDEAA7D0055EF0A /* DBZxcvbn.m */; };
-		285CA3CB1D4A7F54004C0FB1 /* adjacency_graphs.json in Resources */ = {isa = PBXBuildFile; fileRef = D80ECB9A1BDEAABE0055EF0A /* adjacency_graphs.json */; };
-		285CA3CC1D4A7F54004C0FB1 /* frequency_lists.json in Resources */ = {isa = PBXBuildFile; fileRef = D80ECB9B1BDEAABE0055EF0A /* frequency_lists.json */; };
 		285CA3CD1D4A7F77004C0FB1 /* DBMatcher.m in Sources */ = {isa = PBXBuildFile; fileRef = D80ECB831BDEAA7D0055EF0A /* DBMatcher.m */; };
 		285CA3CE1D4A7F77004C0FB1 /* DBScorer.m in Sources */ = {isa = PBXBuildFile; fileRef = D80ECB871BDEAA7D0055EF0A /* DBScorer.m */; };
 		285CA3CF1D4A7F77004C0FB1 /* DBZxcvbn.m in Sources */ = {isa = PBXBuildFile; fileRef = D80ECB891BDEAA7D0055EF0A /* DBZxcvbn.m */; };
@@ -40,8 +42,6 @@
 		D80ECB941BDEAA7D0055EF0A /* DBZxcvbn.h in Headers */ = {isa = PBXBuildFile; fileRef = D80ECB881BDEAA7D0055EF0A /* DBZxcvbn.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D80ECB951BDEAA7D0055EF0A /* DBZxcvbn.m in Sources */ = {isa = PBXBuildFile; fileRef = D80ECB891BDEAA7D0055EF0A /* DBZxcvbn.m */; };
 		D80ECB961BDEAA7D0055EF0A /* DBZxcvbn.m in Sources */ = {isa = PBXBuildFile; fileRef = D80ECB891BDEAA7D0055EF0A /* DBZxcvbn.m */; };
-		D80ECB9C1BDEAAD40055EF0A /* adjacency_graphs.json in Resources */ = {isa = PBXBuildFile; fileRef = D80ECB9A1BDEAABE0055EF0A /* adjacency_graphs.json */; };
-		D80ECB9D1BDEAAD40055EF0A /* frequency_lists.json in Resources */ = {isa = PBXBuildFile; fileRef = D80ECB9B1BDEAABE0055EF0A /* frequency_lists.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -62,6 +62,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		13422F782B05501C00B50D30 /* frequency_lists.lzma */ = {isa = PBXFileReference; lastKnownFileType = file; name = frequency_lists.lzma; path = generated/frequency_lists.lzma; sourceTree = "<group>"; };
+		13422F792B05501C00B50D30 /* adjacency_graphs.lzma */ = {isa = PBXFileReference; lastKnownFileType = file; name = adjacency_graphs.lzma; path = generated/adjacency_graphs.lzma; sourceTree = "<group>"; };
 		285CA3AD1D4A7E95004C0FB1 /* Zxcvbn.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Zxcvbn.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		285CA3AF1D4A7E95004C0FB1 /* Zxcvbn-OSX.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Zxcvbn-OSX.h"; sourceTree = "<group>"; };
 		285CA3B11D4A7E95004C0FB1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -82,8 +84,6 @@
 		D80ECB871BDEAA7D0055EF0A /* DBScorer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DBScorer.m; sourceTree = "<group>"; };
 		D80ECB881BDEAA7D0055EF0A /* DBZxcvbn.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DBZxcvbn.h; sourceTree = "<group>"; };
 		D80ECB891BDEAA7D0055EF0A /* DBZxcvbn.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DBZxcvbn.m; sourceTree = "<group>"; };
-		D80ECB9A1BDEAABE0055EF0A /* adjacency_graphs.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; name = adjacency_graphs.json; path = generated/adjacency_graphs.json; sourceTree = "<group>"; };
-		D80ECB9B1BDEAABE0055EF0A /* frequency_lists.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; name = frequency_lists.json; path = generated/frequency_lists.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -190,8 +190,8 @@
 		D80ECB991BDEAAA10055EF0A /* Generated */ = {
 			isa = PBXGroup;
 			children = (
-				D80ECB9A1BDEAABE0055EF0A /* adjacency_graphs.json */,
-				D80ECB9B1BDEAABE0055EF0A /* frequency_lists.json */,
+				13422F792B05501C00B50D30 /* adjacency_graphs.lzma */,
+				13422F782B05501C00B50D30 /* frequency_lists.lzma */,
 			);
 			name = Generated;
 			sourceTree = "<group>";
@@ -347,8 +347,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				285CA3CB1D4A7F54004C0FB1 /* adjacency_graphs.json in Resources */,
-				285CA3CC1D4A7F54004C0FB1 /* frequency_lists.json in Resources */,
+				13422F7C2B05501C00B50D30 /* frequency_lists.lzma in Resources */,
+				13422F802B05501C00B50D30 /* adjacency_graphs.lzma in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -356,8 +356,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2828589E1D4A84BF00233343 /* adjacency_graphs.json in Resources */,
-				2828589F1D4A84BF00233343 /* frequency_lists.json in Resources */,
+				13422F7D2B05501C00B50D30 /* frequency_lists.lzma in Resources */,
+				13422F812B05501C00B50D30 /* adjacency_graphs.lzma in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -365,8 +365,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D80ECB9C1BDEAAD40055EF0A /* adjacency_graphs.json in Resources */,
-				D80ECB9D1BDEAAD40055EF0A /* frequency_lists.json in Resources */,
+				13422F7A2B05501C00B50D30 /* frequency_lists.lzma in Resources */,
+				13422F7E2B05501C00B50D30 /* adjacency_graphs.lzma in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -374,8 +374,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1C2EA550219DEF5000F06002 /* frequency_lists.json in Resources */,
-				1C2EA551219DEFAC00F06002 /* adjacency_graphs.json in Resources */,
+				13422F7B2B05501C00B50D30 /* frequency_lists.lzma in Resources */,
+				13422F7F2B05501C00B50D30 /* adjacency_graphs.lzma in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

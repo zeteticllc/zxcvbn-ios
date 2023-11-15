@@ -605,10 +605,15 @@ typedef NSArray* (^MatcherBlock)(NSString *password);
 - (NSArray *)loadFrequencyLists
 {
     NSMutableArray *dictionaryMatchers = [[NSMutableArray alloc] init];
-    NSURL *fileURL = [[NSBundle bundleForClass:[self class]] URLForResource:@"frequency_lists" withExtension:@"json"];
-    NSData *data = [NSData dataWithContentsOfURL:fileURL];
-    
+    NSURL *fileURL = [[NSBundle bundleForClass:[self class]] URLForResource:@"frequency_lists" withExtension:@"lzma"];
+    NSData *lzmaData = [NSData dataWithContentsOfURL:fileURL];
     NSError *error;
+    NSData *data = [lzmaData decompressedDataUsingAlgorithm:NSDataCompressionAlgorithmLZMA error:&error];
+    if (error != nil) {
+        NSLog(@"Error decompressing frequency_lists: %@", error);
+        return dictionaryMatchers;
+    }
+    
     id json = [NSJSONSerialization JSONObjectWithData:data options:kNilOptions error:&error];
     
     if (error == nil) {
@@ -628,10 +633,15 @@ typedef NSArray* (^MatcherBlock)(NSString *password);
 
 - (NSDictionary *)loadAdjacencyGraphs
 {
-    NSString *filePath = [[NSBundle bundleForClass:[self class]] pathForResource:@"adjacency_graphs" ofType:@"json"];
-    NSData *data = [NSData dataWithContentsOfFile:filePath];
-    
+    NSString *filePath = [[NSBundle bundleForClass:[self class]] pathForResource:@"adjacency_graphs" ofType:@"lzma"];
+    NSData *lzmaData = [NSData dataWithContentsOfFile:filePath];
     NSError *error;
+    NSData *data = [lzmaData decompressedDataUsingAlgorithm:NSDataCompressionAlgorithmLZMA error:&error];
+    if (error != nil) {
+        NSLog(@"Error decompressing adjancency_graphs: %@", error);
+        return nil;
+    }
+    
     id json = [NSJSONSerialization JSONObjectWithData:data options:kNilOptions error:&error];
     
     if (error == nil) {
