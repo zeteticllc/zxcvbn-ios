@@ -610,7 +610,7 @@ typedef NSArray* (^MatcherBlock)(NSString *password);
     NSError *error;
     NSData *data = [lzmaData decompressedDataUsingAlgorithm:NSDataCompressionAlgorithmLZMA error:&error];
     if (error != nil) {
-        NSLog(@"Error decompressing frequency_lists: %@", error);
+        NSLog(@"Error decompressing frequency lists: %@", error);
         return dictionaryMatchers;
     }
     
@@ -638,7 +638,7 @@ typedef NSArray* (^MatcherBlock)(NSString *password);
     NSError *error;
     NSData *data = [lzmaData decompressedDataUsingAlgorithm:NSDataCompressionAlgorithmLZMA error:&error];
     if (error != nil) {
-        NSLog(@"Error decompressing adjancency_graphs: %@", error);
+        NSLog(@"Error decompressing adjacency graphs: %@", error);
         return nil;
     }
     
